@@ -20,7 +20,7 @@ import static org.nuxeo.ecm.core.io.registry.reflect.Priorities.REFERENCE;
  * {
  *   ...
  *   "contextParameters": {
- *     "drive": { ... }
+ *     "drive": "direct_edit_link" or null if not applicable
  *   }
  * }}
  * </pre>
