@@ -1,10 +1,10 @@
 <!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
 <package type="addon" name="nuxeo-labs-drive-document-enricher" version="@VERSION@">
-  <title>Nuxeo labs drive document enricher</title>
+  <title>Nuxeo Labs Drive Document Enricher</title>
   <description>
-    <p>Put here an HTML description of your Nuxeo Package.</p>
+    <p>This package introduces an API document enricher which provides the Nuxeo Drive direct edit links</p>
   </description>
-  <!-- <home-page>http://doc.nuxeo.com/</home-page> -->
+  <home-page>https://github.com/nuxeo-sandbox/nuxeo-labs-drive-document-enricher</home-page>
   <vendor>Nuxeo</vendor>
   <installer restart="true" />
   <uninstaller restart="true" />
@@ -38,5 +38,5 @@
   <license></license>
   <license-url></license-url>
   <!-- Visibility: PRIVATE | MARKETPLACE | DEV | PUBLIC -->
-  <visibility>DEV</visibility>
+  <visibility>PUBLIC</visibility>
 </package>
